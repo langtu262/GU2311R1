@@ -7,11 +7,11 @@ namespace tinhtygia
 		{
 			float tygia;
 			float soluong;
-			Console.WriteLine("nhap ty gia: ");
+			Console.WriteLine("nhap ty gia USD: ");
 			tygia = float.Parse(Console.ReadLine());
-			Console.WriteLine("nhap so luong: ");
+			Console.WriteLine("nhap so luong USD Can doi: ");
 			soluong = float.Parse(Console.ReadLine());
-			Console.WriteLine("so tien doi duoc= " + tygia * soluong);
+			Console.WriteLine("so tien VND= " + tygia * soluong);
 		}
 
 	}
