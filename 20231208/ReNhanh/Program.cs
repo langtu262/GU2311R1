@@ -9,11 +9,11 @@ namespace ReNhanh
             int number = 0 ;
             Console.WriteLine("nhap so can kiem tra: ");
             number = int.Parse(Console.ReadLine());
-            if (number > 0)
+            if (number > 0) // điều kiện true
             {
                 Console.WriteLine("so ban nhap la so duong");
             }
-            else if (number < 0)
+            else if (number < 0) // else: khi không thỏa điều kiện trên sẽ thực hiện 
             {
                 Console.WriteLine("So ban nhan la so am");
             }

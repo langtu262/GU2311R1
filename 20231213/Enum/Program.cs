@@ -1,5 +1,4 @@
 ﻿using System;
-//namespace Se
 enum Season
 {
     Spring,

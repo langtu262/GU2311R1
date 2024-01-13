@@ -9,10 +9,10 @@ namespace CheckDay
             int day;
             Console.WriteLine("nhap thu can in ra:(chu y: chi duoc nhap so 1 - 8)");
             day=int.Parse(Console.ReadLine());
-            switch (day)
+            switch (day) // vòng lập switch case
             {
                 case 2: Console.WriteLine("Hom nay la Thu 2");
-                    break;
+                    break; //lện dừng vòng lập
                 case 3:
                     Console.WriteLine("Hom nay la Thu 3");
                     break;
