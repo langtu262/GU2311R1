@@ -18,4 +18,8 @@
         }
         return min;
     }
+    void TenHam() // phương thức không có giá trị trả về
+    { 
+    
+    }
 }
